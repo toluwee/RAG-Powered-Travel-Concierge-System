@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beginner-Friendly Tutorial: Intelligent Travel Concierge System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #222; }
+        .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 32px 40px 40px 40px; border-radius: 12px; box-shadow: 0 2px 16px rgba(0,0,0,0.07); }
+        h1, h2, h3 { color: #2a4d7a; }
+        pre { background: #f4f4f4; padding: 12px; border-radius: 6px; overflow-x: auto; }
+        code { color: #c7254e; background: #f9f2f4; padding: 2px 4px; border-radius: 4px; }
+        .step { margin-bottom: 32px; }
+        .tip { background: #e7f4e4; border-left: 4px solid #4caf50; padding: 10px 16px; margin: 16px 0; border-radius: 6px; }
+        .note { background: #fffbe7; border-left: 4px solid #ffb300; padding: 10px 16px; margin: 16px 0; border-radius: 6px; }
+        ul { margin-left: 24px; }
+        a { color: #2a4d7a; text-decoration: underline; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Beginner-Friendly Hands-On Tutorial<br>Intelligent Travel Concierge System</h1>
+    <p>This tutorial will guide you step-by-step through how the Intelligent Travel Concierge system works, how the model is fine-tuned, and how the RAG (Retrieval-Augmented Generation) system is built. You'll learn the logic behind each moving part, see code snippets, and try out the system yourself!</p>
+
+    <div class="step">
+        <h2>1. What is the Intelligent Travel Concierge?</h2>
+        <p>
+            This system is an AI-powered assistant that helps plan complex, multi-city business trips. It uses:
+        </p>
+        <ul>
+            <li><b>Fine-tuned language models</b> to understand and generate travel plans</li>
+            <li><b>RAG (Retrieval-Augmented Generation)</b> to fetch up-to-date travel knowledge</li>
+            <li><b>Personalization</b> to adapt to user preferences and business rules</li>
+        </ul>
+        <div class="note">
+            <b>Why not just use a traditional recommender?</b><br>
+            This system can handle complex, multi-step, and context-rich travel requests, using real-time data and natural language, which traditional recommenders can't do as flexibly.
+        </div>
+    </div>
+
+    <div class="step">
+        <h2>2. Project Structure Overview</h2>
+        <pre><code>Travel/
+├── app/                # Main application code
+│   ├── api/            # FastAPI API routes
+│   ├── core/           # Core logic: RAG, model training
+│   ├── models/         # Data models (Pydantic)
+│   ├── services/       # Business logic
+│   └── main.py         # FastAPI entry point
+├── data/               # Data files (training, RAG docs)
+├── models/             # Trained models
+├── tests/              # Test suite
+├── make.py             # Automation script
+├── requirements.txt    # Dependencies
+└── README.md           # Documentation
+</code></pre>
+    </div>
+
+    <div class="step">
+        <h2>3. Setting Up the System</h2>
+        <ol>
+            <li><b>Install dependencies:</b>
+                <pre><code>python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt</code></pre>
+            </li>
+            <li><b>Run the automation script:</b>
+                <pre><code>python make.py full</code></pre>
+                This will:
+                <ul>
+                    <li>Generate synthetic training data</li>
+                    <li>Generate RAG documents</li>
+                    <li>Set up the RAG system</li>
+                    <li>Test the system end-to-end</li>
+                </ul>
+            </li>
+            <li><b>Start the API server:</b>
+                <pre><code>uvicorn app.main:app --reload</code></pre>
+                The API will be available at <a href="http://localhost:8000/docs" target="_blank">http://localhost:8000/docs</a>
+            </li>
+        </ol>
+    </div>
+
+    <div class="step">
+        <h2>4. How the Model is Fine-Tuned</h2>
+        <p>
+            The system uses a language model (like GPT-2) and fine-tunes it on <b>synthetic business travel data</b> to better understand travel-specific requests.
+        </p>
+        <ol>
+            <li><b>Generate synthetic data:</b> <br>
+                The <code>make.py</code> script creates realistic business travel scenarios, e.g.:
+                <pre><code>{
+  "traveler_type": "road_warrior",
+  "origin": "New York",
+  "destination": "London",
+  "date": "2024-03-15",
+  "airline": "Delta",
+  "hotel_name": "Marriott London",
+  "purpose": "client_meeting",
+  "budget": 5000
+}</code></pre>
+            </li>
+            <li><b>Fine-tune the model:</b> <br>
+                The <code>TravelModelTrainer</code> class in <code>app/core/model_training.py</code> loads a base model and trains it on this data:
+                <pre><code>from app.core.model_training import TravelModelTrainer
+trainer = TravelModelTrainer()
+trainer.fine_tune(training_data, num_epochs=1, batch_size=2, learning_rate=2e-5)</code></pre>
+                <div class="tip">
+                    <b>Tip:</b> Fine-tuning helps the model understand travel-specific language and constraints.
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <div class="step">
+        <h2>5. How the RAG System Works</h2>
+        <p>
+            RAG (Retrieval-Augmented Generation) lets the system fetch up-to-date travel knowledge (e.g., policies, hotel info) and use it in responses.
+        </p>
+        <ol>
+            <li><b>Prepare RAG documents:</b> <br>
+                <pre><code>{
+  "content": "Marriott hotels are preferred for business travelers in financial districts",
+  "metadata": {"source": "corporate_policy", "type": "hotel"}
+}</code></pre>
+            </li>
+            <li><b>Set up the RAG system:</b> <br>
+                The <code>TravelRAGSystem</code> in <code>app/core/rag_system.py</code> loads these documents and enables keyword or embedding-based search.
+                <pre><code>from app.core.rag_system import TravelRAGSystem
+rag = TravelRAGSystem()
+rag.add_document("Marriott hotels are preferred...", {"type": "hotel"})
+results = rag.search("business hotel in London")</code></pre>
+                <div class="tip">
+                    <b>Tip:</b> In production, you can use vector search (FAISS) and OpenAI embeddings for smarter retrieval.
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <div class="step">
+        <h2>6. How Everything Connects: The Planning Agent</h2>
+        <p>
+            The <b>TravelPlanner</b> service in <code>app/services/travel_planner.py</code> orchestrates the whole process:
+        </p>
+        <ol>
+            <li>Receives a travel request (from API or script)</li>
+            <li>Uses the fine-tuned model to understand intent and constraints</li>
+            <li>Queries the RAG system for up-to-date info</li>
+            <li>Builds a personalized, multi-city itinerary</li>
+            <li>Returns recommendations, warnings, and explanations</li>
+        </ol>
+        <pre><code>from app.services.travel_planner import TravelPlanner
+planner = TravelPlanner()
+response = await planner.plan_trip(travel_request)
+print(response.itinerary)
+</code></pre>
+    </div>
+
+    <div class="step">
+        <h2>7. Try It Yourself!</h2>
+        <ol>
+            <li>Run <code>python make.py full</code> to generate data and test the system.</li>
+            <li>Start the API server and open <a href="http://localhost:8000/docs" target="_blank">the Swagger UI</a>.</li>
+            <li>Send a POST request to <code>/api/v1/travel/plan</code> with a sample travel request (see the docs for schema).</li>
+            <li>Check the response for a personalized, multi-city itinerary and recommendations!</li>
+        </ol>
+        <div class="note">
+            <b>Explore the code:</b> Check out <code>app/core/</code> for RAG and model logic, <code>app/services/</code> for orchestration, and <code>app/api/</code> for API routes.
+        </div>
+    </div>
+
+    <div class="step">
+        <h2>8. Summary: Key Takeaways</h2>
+        <ul>
+            <li><b>Fine-tuned models</b> help the system understand travel-specific needs</li>
+            <li><b>RAG</b> brings in real-time, external knowledge</li>
+            <li><b>Agentic orchestration</b> coordinates everything for a seamless user experience</li>
+        </ul>
+        <p>With this architecture, you can build powerful, flexible, and user-friendly AI assistants for complex domains!</p>
+    </div>
+
+    <hr>
+    <p style="text-align:center; color:#888;">&copy; 2024 Intelligent Travel Concierge Tutorial</p>
+</div>
+</body>
+</html> 
