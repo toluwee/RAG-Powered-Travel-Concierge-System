@@ -1,0 +1,832 @@
+[
+  {
+    "test_id": "simple_business_trip_0",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_1",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_2",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_3",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_4",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_5",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_6",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_7",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_8",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "simple_business_trip_9",
+    "category": "simple_business_trip",
+    "user_query": "I need a business trip from Seattle to London next month for a client meeting",
+    "constraints": [
+      "budget under $3000",
+      "prefer Delta airlines"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "low"
+  },
+  {
+    "test_id": "multi_city_complex_0",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_1",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_2",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_3",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_4",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_5",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_6",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_7",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_8",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "multi_city_complex_9",
+    "category": "multi_city_complex",
+    "user_query": "Plan a multi-city trip: Seattle \u2192 London \u2192 Frankfurt \u2192 Seattle over 2 weeks",
+    "constraints": [
+      "business class flights",
+      "Marriott hotels",
+      "meetings in each city"
+    ],
+    "expected_flights": 3,
+    "expected_hotels": 2,
+    "complexity": "high"
+  },
+  {
+    "test_id": "budget_constrained_0",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_1",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_2",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_3",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_4",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_5",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_6",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_7",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_8",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "budget_constrained_9",
+    "category": "budget_constrained",
+    "user_query": "Need cheapest options for Seattle to Paris, budget $1500 total",
+    "constraints": [
+      "economy class",
+      "budget hotels",
+      "flexible dates"
+    ],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_0",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_1",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_2",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_3",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_4",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_5",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_6",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_7",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_8",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "luxury_preference_9",
+    "category": "luxury_preference",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_0",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_1",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_2",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_3",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_4",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_5",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_6",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_7",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_8",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "last_minute_booking_9",
+    "category": "last_minute_booking",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_0",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_1",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_2",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_3",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_4",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_5",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_6",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_7",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_8",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "group_travel_9",
+    "category": "group_travel",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_0",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_1",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_2",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_3",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_4",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_5",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_6",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_7",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_8",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "international_complex_9",
+    "category": "international_complex",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_0",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_1",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_2",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_3",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_4",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_5",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_6",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_7",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_8",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  },
+  {
+    "test_id": "seasonal_constraints_9",
+    "category": "seasonal_constraints",
+    "user_query": "Standard business trip request",
+    "constraints": [],
+    "expected_flights": 1,
+    "expected_hotels": 1,
+    "complexity": "medium"
+  }
+]

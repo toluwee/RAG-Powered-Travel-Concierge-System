@@ -1,0 +1,1174 @@
+[
+  {
+    "id": "policy_1",
+    "title": "Corporate Travel Policy - Flight Class",
+    "content": "Executive level travelers (VP and above) are authorized for business class on flights over 6 hours duration. Premium economy is approved for flights 3-6 hours.",
+    "metadata": {
+      "source": "corporate_policy",
+      "type": "flight_class",
+      "applies_to": [
+        "C-Suite Executive",
+        "Road Warrior"
+      ]
+    },
+    "doc_type": "policy",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "policy_2",
+    "title": "Corporate Travel Policy - Accommodation",
+    "content": "Preferred hotel chains include Marriott, Hilton, and Hyatt. Employees should prioritize these chains to maximize corporate rates and loyalty benefits.",
+    "metadata": {
+      "source": "corporate_policy",
+      "type": "accommodation",
+      "cost_savings": "15-25%"
+    },
+    "doc_type": "policy",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "policy_3",
+    "title": "Corporate Travel Policy - Booking Requirements",
+    "content": "All international business travel must be booked at least 14 days in advance unless classified as emergency travel. Emergency travel requires VP approval.",
+    "metadata": {
+      "source": "corporate_policy",
+      "type": "booking_requirements",
+      "advance_notice": 14
+    },
+    "doc_type": "policy",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "policy_4",
+    "title": "Corporate Travel Policy - Airline Preference",
+    "content": "Travelers must select airlines with which the company has corporate agreements when available. These include Delta, United, American, British Airways, and Lufthansa.",
+    "metadata": {
+      "source": "corporate_policy",
+      "type": "airline_preference",
+      "corporate_partners": true
+    },
+    "doc_type": "policy",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "policy_5",
+    "title": "Corporate Travel Policy - Hotel Limits",
+    "content": "Maximum hotel rate allowances: Tier 1 cities $400/night, Tier 2 cities $300/night, Tier 3 cities $200/night. Exceeding these rates requires manager approval.",
+    "metadata": {
+      "source": "corporate_policy",
+      "type": "hotel_limits",
+      "tier_based": true
+    },
+    "doc_type": "policy",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "policy_6",
+    "title": "Corporate Travel Policy - Ground Transport",
+    "content": "Ground transportation policy: Airport transfers via ride-share or taxi are reimbursable. Rental cars approved for trips over 3 days or when meetings are in multiple locations.",
+    "metadata": {
+      "source": "corporate_policy",
+      "type": "ground_transport",
+      "conditions": [
+        "duration",
+        "meeting_locations"
+      ]
+    },
+    "doc_type": "policy",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "policy_7",
+    "title": "Corporate Travel Policy - Insurance",
+    "content": "Travel insurance is mandatory for all international trips and domestic trips over $3,000. Company provides coverage through Allianz Global.",
+    "metadata": {
+      "source": "corporate_policy",
+      "type": "insurance",
+      "mandatory_conditions": [
+        "international",
+        "high_value_domestic"
+      ]
+    },
+    "doc_type": "policy",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "policy_8",
+    "title": "Corporate Travel Policy - Expense Reporting",
+    "content": "Expense reporting must be completed within 30 days of trip completion. All receipts must be retained and uploaded to the expense system.",
+    "metadata": {
+      "source": "corporate_policy",
+      "type": "expense_reporting",
+      "deadline_days": 30
+    },
+    "doc_type": "policy",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_new_york",
+    "title": "Business Travel Guide - New York",
+    "content": "New York is a major business hub with primary business districts in Manhattan Financial, Midtown. Peak business season is Sep, Oct, Nov. Average hotel costs are $400 per night. Timezone: EST. Best areas for business travelers include accommodation near Manhattan Financial for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "New York",
+      "timezone": "EST",
+      "peak_season": [
+        "Sep",
+        "Oct",
+        "Nov"
+      ],
+      "avg_hotel_cost": 400,
+      "business_districts": [
+        "Manhattan Financial",
+        "Midtown"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_new_york",
+    "title": "Transportation Guide - New York",
+    "content": "Airport codes for New York: JFK/LGA/EWR. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "New York",
+      "airports": "JFK/LGA/EWR",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_london",
+    "title": "Business Travel Guide - London",
+    "content": "London is a major business hub with primary business districts in City of London, Canary Wharf. Peak business season is Jun, Jul, Aug. Average hotel costs are $350 per night. Timezone: GMT. Best areas for business travelers include accommodation near City of London for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "London",
+      "timezone": "GMT",
+      "peak_season": [
+        "Jun",
+        "Jul",
+        "Aug"
+      ],
+      "avg_hotel_cost": 350,
+      "business_districts": [
+        "City of London",
+        "Canary Wharf"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_london",
+    "title": "Transportation Guide - London",
+    "content": "Airport codes for London: LHR/LGW/STN. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "London",
+      "airports": "LHR/LGW/STN",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "etiquette_london",
+    "title": "Business Etiquette - London",
+    "content": "Business etiquette for London: Formal business attire expected. Punctuality valued. Meetings often include tea service. Understanding local customs enhances business relationships.",
+    "metadata": {
+      "destination": "London",
+      "category": "business_etiquette",
+      "cultural_considerations": true
+    },
+    "doc_type": "cultural_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_tokyo",
+    "title": "Business Travel Guide - Tokyo",
+    "content": "Tokyo is a major business hub with primary business districts in Marunouchi, Shibuya. Peak business season is Mar, Apr, May. Average hotel costs are $300 per night. Timezone: JST. Best areas for business travelers include accommodation near Marunouchi for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Tokyo",
+      "timezone": "JST",
+      "peak_season": [
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "avg_hotel_cost": 300,
+      "business_districts": [
+        "Marunouchi",
+        "Shibuya"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_tokyo",
+    "title": "Transportation Guide - Tokyo",
+    "content": "Airport codes for Tokyo: NRT/HND. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Tokyo",
+      "airports": "NRT/HND",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "etiquette_tokyo",
+    "title": "Business Etiquette - Tokyo",
+    "content": "Business etiquette for Tokyo: Business cards exchanged with both hands and slight bow. Punctuality extremely important. Understanding local customs enhances business relationships.",
+    "metadata": {
+      "destination": "Tokyo",
+      "category": "business_etiquette",
+      "cultural_considerations": true
+    },
+    "doc_type": "cultural_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_frankfurt",
+    "title": "Business Travel Guide - Frankfurt",
+    "content": "Frankfurt is a major business hub with primary business districts in Banking District, Westend. Peak business season is May, Jun, Sep. Average hotel costs are $250 per night. Timezone: CET. Best areas for business travelers include accommodation near Banking District for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Frankfurt",
+      "timezone": "CET",
+      "peak_season": [
+        "May",
+        "Jun",
+        "Sep"
+      ],
+      "avg_hotel_cost": 250,
+      "business_districts": [
+        "Banking District",
+        "Westend"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_frankfurt",
+    "title": "Transportation Guide - Frankfurt",
+    "content": "Airport codes for Frankfurt: FRA. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Frankfurt",
+      "airports": "FRA",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "etiquette_frankfurt",
+    "title": "Business Etiquette - Frankfurt",
+    "content": "Business etiquette for Frankfurt: Direct communication style appreciated. Punctuality essential. Formal address expected. Understanding local customs enhances business relationships.",
+    "metadata": {
+      "destination": "Frankfurt",
+      "category": "business_etiquette",
+      "cultural_considerations": true
+    },
+    "doc_type": "cultural_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_singapore",
+    "title": "Business Travel Guide - Singapore",
+    "content": "Singapore is a major business hub with primary business districts in CBD, Marina Bay. Peak business season is Feb, Mar, Apr. Average hotel costs are $280 per night. Timezone: SGT. Best areas for business travelers include accommodation near CBD for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Singapore",
+      "timezone": "SGT",
+      "peak_season": [
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "avg_hotel_cost": 280,
+      "business_districts": [
+        "CBD",
+        "Marina Bay"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_singapore",
+    "title": "Transportation Guide - Singapore",
+    "content": "Airport codes for Singapore: SIN. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Singapore",
+      "airports": "SIN",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "etiquette_singapore",
+    "title": "Business Etiquette - Singapore",
+    "content": "Business etiquette for Singapore: Multicultural environment. English widely spoken. Respect for hierarchy important. Understanding local customs enhances business relationships.",
+    "metadata": {
+      "destination": "Singapore",
+      "category": "business_etiquette",
+      "cultural_considerations": true
+    },
+    "doc_type": "cultural_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_sydney",
+    "title": "Business Travel Guide - Sydney",
+    "content": "Sydney is a major business hub with primary business districts in CBD, North Sydney. Peak business season is Dec, Jan, Feb. Average hotel costs are $320 per night. Timezone: AEST. Best areas for business travelers include accommodation near CBD for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Sydney",
+      "timezone": "AEST",
+      "peak_season": [
+        "Dec",
+        "Jan",
+        "Feb"
+      ],
+      "avg_hotel_cost": 320,
+      "business_districts": [
+        "CBD",
+        "North Sydney"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_sydney",
+    "title": "Transportation Guide - Sydney",
+    "content": "Airport codes for Sydney: SYD. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Sydney",
+      "airports": "SYD",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_san_francisco",
+    "title": "Business Travel Guide - San Francisco",
+    "content": "San Francisco is a major business hub with primary business districts in SOMA, Financial District. Peak business season is Sep, Oct. Average hotel costs are $450 per night. Timezone: PST. Best areas for business travelers include accommodation near SOMA for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "San Francisco",
+      "timezone": "PST",
+      "peak_season": [
+        "Sep",
+        "Oct"
+      ],
+      "avg_hotel_cost": 450,
+      "business_districts": [
+        "SOMA",
+        "Financial District"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_san_francisco",
+    "title": "Transportation Guide - San Francisco",
+    "content": "Airport codes for San Francisco: SFO. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "San Francisco",
+      "airports": "SFO",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_dubai",
+    "title": "Business Travel Guide - Dubai",
+    "content": "Dubai is a major business hub with primary business districts in DIFC, Business Bay. Peak business season is Nov, Dec, Jan. Average hotel costs are $200 per night. Timezone: GST. Best areas for business travelers include accommodation near DIFC for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Dubai",
+      "timezone": "GST",
+      "peak_season": [
+        "Nov",
+        "Dec",
+        "Jan"
+      ],
+      "avg_hotel_cost": 200,
+      "business_districts": [
+        "DIFC",
+        "Business Bay"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_dubai",
+    "title": "Transportation Guide - Dubai",
+    "content": "Airport codes for Dubai: DXB. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Dubai",
+      "airports": "DXB",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "etiquette_dubai",
+    "title": "Business Etiquette - Dubai",
+    "content": "Business etiquette for Dubai: Conservative dress code required. Business meetings may be scheduled around prayer times. Understanding local customs enhances business relationships.",
+    "metadata": {
+      "destination": "Dubai",
+      "category": "business_etiquette",
+      "cultural_considerations": true
+    },
+    "doc_type": "cultural_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_toronto",
+    "title": "Business Travel Guide - Toronto",
+    "content": "Toronto is a major business hub with primary business districts in Financial District, King West. Peak business season is Jul, Aug, Sep. Average hotel costs are $180 per night. Timezone: EST. Best areas for business travelers include accommodation near Financial District for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Toronto",
+      "timezone": "EST",
+      "peak_season": [
+        "Jul",
+        "Aug",
+        "Sep"
+      ],
+      "avg_hotel_cost": 180,
+      "business_districts": [
+        "Financial District",
+        "King West"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_toronto",
+    "title": "Transportation Guide - Toronto",
+    "content": "Airport codes for Toronto: YYZ. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Toronto",
+      "airports": "YYZ",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_hong_kong",
+    "title": "Business Travel Guide - Hong Kong",
+    "content": "Hong Kong is a major business hub with primary business districts in Central, Admiralty. Peak business season is Oct, Nov, Dec. Average hotel costs are $300 per night. Timezone: HKT. Best areas for business travelers include accommodation near Central for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Hong Kong",
+      "timezone": "HKT",
+      "peak_season": [
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "avg_hotel_cost": 300,
+      "business_districts": [
+        "Central",
+        "Admiralty"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_hong_kong",
+    "title": "Transportation Guide - Hong Kong",
+    "content": "Airport codes for Hong Kong: HKG. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Hong Kong",
+      "airports": "HKG",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_mumbai",
+    "title": "Business Travel Guide - Mumbai",
+    "content": "Mumbai is a major business hub with primary business districts in BKC, Lower Parel. Peak business season is Nov, Dec, Jan. Average hotel costs are $120 per night. Timezone: IST. Best areas for business travelers include accommodation near BKC for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Mumbai",
+      "timezone": "IST",
+      "peak_season": [
+        "Nov",
+        "Dec",
+        "Jan"
+      ],
+      "avg_hotel_cost": 120,
+      "business_districts": [
+        "BKC",
+        "Lower Parel"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_mumbai",
+    "title": "Transportation Guide - Mumbai",
+    "content": "Airport codes for Mumbai: BOM. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Mumbai",
+      "airports": "BOM",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "etiquette_mumbai",
+    "title": "Business Etiquette - Mumbai",
+    "content": "Business etiquette for Mumbai: Relationship building crucial. Meetings may start with personal conversation. Understanding local customs enhances business relationships.",
+    "metadata": {
+      "destination": "Mumbai",
+      "category": "business_etiquette",
+      "cultural_considerations": true
+    },
+    "doc_type": "cultural_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "dest_paris",
+    "title": "Business Travel Guide - Paris",
+    "content": "Paris is a major business hub with primary business districts in La D\u00e9fense, 8th Arrondissement. Peak business season is May, Jun, Sep. Average hotel costs are $380 per night. Timezone: CET. Best areas for business travelers include accommodation near La D\u00e9fense for easy access to corporate offices and meeting venues.",
+    "metadata": {
+      "destination": "Paris",
+      "timezone": "CET",
+      "peak_season": [
+        "May",
+        "Jun",
+        "Sep"
+      ],
+      "avg_hotel_cost": 380,
+      "business_districts": [
+        "La D\u00e9fense",
+        "8th Arrondissement"
+      ]
+    },
+    "doc_type": "destination_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "transport_paris",
+    "title": "Transportation Guide - Paris",
+    "content": "Airport codes for Paris: CDG/ORY. Recommended airport transfer: Express train or taxi depending on traffic patterns. Local business transportation includes metro/subway, taxis, and ride-sharing services. Average airport to city center time: 30-60 minutes depending on traffic and method.",
+    "metadata": {
+      "destination": "Paris",
+      "airports": "CDG/ORY",
+      "transport_options": [
+        "train",
+        "taxi",
+        "ride_share",
+        "metro"
+      ]
+    },
+    "doc_type": "transportation",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_delta",
+    "title": "Airline Profile - Delta",
+    "content": "Delta operates primarily in North America, Europe regions. Business class available: True. Loyalty program: SkyMiles. Average customer rating: 4.2/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "Delta",
+      "type": "airline",
+      "regions": [
+        "North America",
+        "Europe"
+      ],
+      "business_class": true,
+      "loyalty_program": "SkyMiles",
+      "rating": 4.2
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_united",
+    "title": "Airline Profile - United",
+    "content": "United operates primarily in North America, Asia, Europe regions. Business class available: True. Loyalty program: MileagePlus. Average customer rating: 4.0/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "United",
+      "type": "airline",
+      "regions": [
+        "North America",
+        "Asia",
+        "Europe"
+      ],
+      "business_class": true,
+      "loyalty_program": "MileagePlus",
+      "rating": 4.0
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_american",
+    "title": "Airline Profile - American",
+    "content": "American operates primarily in North America, Europe regions. Business class available: True. Loyalty program: AAdvantage. Average customer rating: 3.9/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "American",
+      "type": "airline",
+      "regions": [
+        "North America",
+        "Europe"
+      ],
+      "business_class": true,
+      "loyalty_program": "AAdvantage",
+      "rating": 3.9
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_british_airways",
+    "title": "Airline Profile - British Airways",
+    "content": "British Airways operates primarily in Europe, Asia regions. Business class available: True. Loyalty program: Executive Club. Average customer rating: 4.3/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "British Airways",
+      "type": "airline",
+      "regions": [
+        "Europe",
+        "Asia"
+      ],
+      "business_class": true,
+      "loyalty_program": "Executive Club",
+      "rating": 4.3
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_lufthansa",
+    "title": "Airline Profile - Lufthansa",
+    "content": "Lufthansa operates primarily in Europe, Asia regions. Business class available: True. Loyalty program: Miles & More. Average customer rating: 4.4/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "Lufthansa",
+      "type": "airline",
+      "regions": [
+        "Europe",
+        "Asia"
+      ],
+      "business_class": true,
+      "loyalty_program": "Miles & More",
+      "rating": 4.4
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_emirates",
+    "title": "Airline Profile - Emirates",
+    "content": "Emirates operates primarily in Middle East, Asia, Europe regions. Business class available: True. Loyalty program: Skywards. Average customer rating: 4.6/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "Emirates",
+      "type": "airline",
+      "regions": [
+        "Middle East",
+        "Asia",
+        "Europe"
+      ],
+      "business_class": true,
+      "loyalty_program": "Skywards",
+      "rating": 4.6
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_singapore_airlines",
+    "title": "Airline Profile - Singapore Airlines",
+    "content": "Singapore Airlines operates primarily in Asia, Europe regions. Business class available: True. Loyalty program: KrisFlyer. Average customer rating: 4.7/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "Singapore Airlines",
+      "type": "airline",
+      "regions": [
+        "Asia",
+        "Europe"
+      ],
+      "business_class": true,
+      "loyalty_program": "KrisFlyer",
+      "rating": 4.7
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_ana",
+    "title": "Airline Profile - ANA",
+    "content": "ANA operates primarily in Asia, North America regions. Business class available: True. Loyalty program: Mileage Club. Average customer rating: 4.5/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "ANA",
+      "type": "airline",
+      "regions": [
+        "Asia",
+        "North America"
+      ],
+      "business_class": true,
+      "loyalty_program": "Mileage Club",
+      "rating": 4.5
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_air_france",
+    "title": "Airline Profile - Air France",
+    "content": "Air France operates primarily in Europe, Africa regions. Business class available: True. Loyalty program: Flying Blue. Average customer rating: 4.1/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "Air France",
+      "type": "airline",
+      "regions": [
+        "Europe",
+        "Africa"
+      ],
+      "business_class": true,
+      "loyalty_program": "Flying Blue",
+      "rating": 4.1
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "airline_klm",
+    "title": "Airline Profile - KLM",
+    "content": "KLM operates primarily in Europe, Asia regions. Business class available: True. Loyalty program: Flying Blue. Average customer rating: 4.2/5. Known for reliable service and extensive route network in served regions.",
+    "metadata": {
+      "provider": "KLM",
+      "type": "airline",
+      "regions": [
+        "Europe",
+        "Asia"
+      ],
+      "business_class": true,
+      "loyalty_program": "Flying Blue",
+      "rating": 4.2
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "hotel_marriott",
+    "title": "Hotel Chain Profile - Marriott",
+    "content": "Marriott offers multiple tiers: Courtyard, Marriott, Renaissance, Ritz-Carlton. Loyalty program: Bonvoy. Business amenities available: True. Suitable for business travelers with consistent service standards across locations.",
+    "metadata": {
+      "provider": "Marriott",
+      "type": "hotel_chain",
+      "tiers": [
+        "Courtyard",
+        "Marriott",
+        "Renaissance",
+        "Ritz-Carlton"
+      ],
+      "loyalty_program": "Bonvoy",
+      "business_amenities": true
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "hotel_hilton",
+    "title": "Hotel Chain Profile - Hilton",
+    "content": "Hilton offers multiple tiers: Hampton, Hilton, Hampton Inn, DoubleTree, Conrad. Loyalty program: Honors. Business amenities available: True. Suitable for business travelers with consistent service standards across locations.",
+    "metadata": {
+      "provider": "Hilton",
+      "type": "hotel_chain",
+      "tiers": [
+        "Hampton",
+        "Hilton",
+        "Hampton Inn",
+        "DoubleTree",
+        "Conrad"
+      ],
+      "loyalty_program": "Honors",
+      "business_amenities": true
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "hotel_hyatt",
+    "title": "Hotel Chain Profile - Hyatt",
+    "content": "Hyatt offers multiple tiers: Hyatt House, Hyatt, Grand Hyatt, Park Hyatt. Loyalty program: World of Hyatt. Business amenities available: True. Suitable for business travelers with consistent service standards across locations.",
+    "metadata": {
+      "provider": "Hyatt",
+      "type": "hotel_chain",
+      "tiers": [
+        "Hyatt House",
+        "Hyatt",
+        "Grand Hyatt",
+        "Park Hyatt"
+      ],
+      "loyalty_program": "World of Hyatt",
+      "business_amenities": true
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "hotel_intercontinental",
+    "title": "Hotel Chain Profile - InterContinental",
+    "content": "InterContinental offers multiple tiers: Holiday Inn, InterContinental, Regent. Loyalty program: IHG Rewards. Business amenities available: True. Suitable for business travelers with consistent service standards across locations.",
+    "metadata": {
+      "provider": "InterContinental",
+      "type": "hotel_chain",
+      "tiers": [
+        "Holiday Inn",
+        "InterContinental",
+        "Regent"
+      ],
+      "loyalty_program": "IHG Rewards",
+      "business_amenities": true
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "hotel_accor",
+    "title": "Hotel Chain Profile - Accor",
+    "content": "Accor offers multiple tiers: Novotel, Pullman, Sofitel. Loyalty program: ALL. Business amenities available: True. Suitable for business travelers with consistent service standards across locations.",
+    "metadata": {
+      "provider": "Accor",
+      "type": "hotel_chain",
+      "tiers": [
+        "Novotel",
+        "Pullman",
+        "Sofitel"
+      ],
+      "loyalty_program": "ALL",
+      "business_amenities": true
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "hotel_four_seasons",
+    "title": "Hotel Chain Profile - Four Seasons",
+    "content": "Four Seasons offers multiple tiers: Four Seasons. Loyalty program: None. Business amenities available: True. Suitable for business travelers with consistent service standards across locations.",
+    "metadata": {
+      "provider": "Four Seasons",
+      "type": "hotel_chain",
+      "tiers": [
+        "Four Seasons"
+      ],
+      "loyalty_program": null,
+      "business_amenities": true
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "hotel_w_hotels",
+    "title": "Hotel Chain Profile - W Hotels",
+    "content": "W Hotels offers multiple tiers: W. Loyalty program: Bonvoy. Business amenities available: True. Suitable for business travelers with consistent service standards across locations.",
+    "metadata": {
+      "provider": "W Hotels",
+      "type": "hotel_chain",
+      "tiers": [
+        "W"
+      ],
+      "loyalty_program": "Bonvoy",
+      "business_amenities": true
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "hotel_le_meridien",
+    "title": "Hotel Chain Profile - Le Meridien",
+    "content": "Le Meridien offers multiple tiers: Le Meridien. Loyalty program: Bonvoy. Business amenities available: True. Suitable for business travelers with consistent service standards across locations.",
+    "metadata": {
+      "provider": "Le Meridien",
+      "type": "hotel_chain",
+      "tiers": [
+        "Le Meridien"
+      ],
+      "loyalty_program": "Bonvoy",
+      "business_amenities": true
+    },
+    "doc_type": "provider_info",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "tip_1",
+    "title": "Flight Booking Optimization",
+    "content": "Book flights 2-8 weeks in advance for best prices. Tuesday and Wednesday departures are typically cheaper. Consider nearby airports for potential savings. Use airline apps for real-time updates and mobile boarding passes.",
+    "metadata": {
+      "category": "flight_booking",
+      "applies_to": "all_travelers",
+      "tip_type": "best_practice"
+    },
+    "doc_type": "travel_tip",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "tip_2",
+    "title": "Hotel Selection Strategy",
+    "content": "Choose hotels within 15 minutes of business destinations. Prioritize properties with business centers and reliable WiFi. Book directly with hotels for room upgrades and flexible cancellation. Consider loyalty program benefits.",
+    "metadata": {
+      "category": "hotel_booking",
+      "applies_to": "all_travelers",
+      "tip_type": "best_practice"
+    },
+    "doc_type": "travel_tip",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "tip_3",
+    "title": "Packing Essentials for Business Travel",
+    "content": "Pack one business outfit in carry-on to handle lost luggage. Bring universal adapter and portable chargers. Keep important documents in easily accessible travel organizer. Pack wrinkle-resistant fabrics.",
+    "metadata": {
+      "category": "packing",
+      "applies_to": "all_travelers",
+      "tip_type": "best_practice"
+    },
+    "doc_type": "travel_tip",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "tip_4",
+    "title": "Time Zone Management",
+    "content": "Adjust sleep schedule 1-2 days before travel. Stay hydrated during flight. Use natural light to reset circadian rhythm. Consider melatonin for eastward travel. Schedule important meetings considering jet lag recovery.",
+    "metadata": {
+      "category": "jet_lag",
+      "applies_to": "international_travelers",
+      "tip_type": "best_practice"
+    },
+    "doc_type": "travel_tip",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "tip_5",
+    "title": "Airport Efficiency Tips",
+    "content": "Enroll in TSA PreCheck or Global Entry for faster security. Use airline lounges for productive work time. Download offline maps and save important phone numbers. Check in online and use mobile boarding passes.",
+    "metadata": {
+      "category": "airport_navigation",
+      "applies_to": "frequent_travelers",
+      "tip_type": "best_practice"
+    },
+    "doc_type": "travel_tip",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "tip_6",
+    "title": "Expense Management",
+    "content": "Photograph receipts immediately. Use expense tracking apps. Separate personal and business expenses clearly. Submit expense reports promptly. Keep digital and physical backups of important receipts.",
+    "metadata": {
+      "category": "expense_tracking",
+      "applies_to": "all_travelers",
+      "tip_type": "best_practice"
+    },
+    "doc_type": "travel_tip",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "tip_7",
+    "title": "Health and Safety Abroad",
+    "content": "Research health requirements and vaccinations. Carry prescription medications in original containers. Know emergency contact numbers for destinations. Consider travel health insurance for international trips.",
+    "metadata": {
+      "category": "health_safety",
+      "applies_to": "international_travelers",
+      "tip_type": "best_practice"
+    },
+    "doc_type": "travel_tip",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "tip_8",
+    "title": "Technology for Business Travel",
+    "content": "Use VPN for secure internet access. Download offline maps and translation apps. Backup important files to cloud storage. Carry portable WiFi hotspot for reliable connectivity. Keep devices charged with portable battery packs.",
+    "metadata": {
+      "category": "technology",
+      "applies_to": "all_travelers",
+      "tip_type": "best_practice"
+    },
+    "doc_type": "travel_tip",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "seasonal_1",
+    "title": "Peak Business Travel Seasons",
+    "content": "September-November and February-May are peak business travel seasons. Expect higher prices and limited availability. Book accommodations 3-4 weeks in advance during peak seasons. Consider shoulder seasons for cost savings.",
+    "metadata": {
+      "season_type": "peak_business",
+      "planning_impact": "high",
+      "booking_advice": true
+    },
+    "doc_type": "seasonal_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "seasonal_2",
+    "title": "Holiday Impact on Business Travel",
+    "content": "Christmas/New Year (Dec 20-Jan 5), Easter week, and Thanksgiving week see reduced business activity but higher travel costs. Many businesses close between Christmas and New Year. Plan accordingly for international destinations.",
+    "metadata": {
+      "season_type": "holidays",
+      "planning_impact": "high",
+      "booking_advice": true
+    },
+    "doc_type": "seasonal_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "seasonal_3",
+    "title": "Conference Season Patterns",
+    "content": "Major industry conferences typically occur in Spring (Mar-May) and Fall (Sep-Nov). Technology conferences peak in Spring. Financial services conferences often in Fall. Book early as conference cities see hotel shortages.",
+    "metadata": {
+      "season_type": "conference",
+      "planning_impact": "high",
+      "booking_advice": true
+    },
+    "doc_type": "seasonal_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "seasonal_4",
+    "title": "Weather Considerations",
+    "content": "Winter travel (Dec-Feb) to northern destinations may face weather delays. Summer travel (Jun-Aug) to hot climates requires appropriate clothing. Monsoon season in Asia (Jun-Sep) can affect travel plans. Check weather forecasts weekly before travel.",
+    "metadata": {
+      "season_type": "weather_dependent",
+      "planning_impact": "high",
+      "booking_advice": true
+    },
+    "doc_type": "seasonal_guide",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "visa_req_1",
+    "title": "US Business Visa Requirements",
+    "content": "US citizens traveling internationally for business may need visas depending on destination. ESTA required for European travel. Business visas typically require invitation letters and proof of business purpose. Process times vary from 3 days to 6 weeks. Some countries offer visa on arrival for business travelers.",
+    "metadata": {
+      "requirement_type": "visa",
+      "region": "outbound_us",
+      "urgency": "plan_ahead"
+    },
+    "doc_type": "travel_requirements",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "visa_req_2",
+    "title": "International Travel to US",
+    "content": "Foreign nationals visiting US for business need B-1 visa or visa waiver (ESTA). Requires demonstration of business purpose and intent to return home. Processing can take 2-12 weeks. Some countries have expedited processing for business travelers.",
+    "metadata": {
+      "requirement_type": "visa",
+      "region": "inbound_us",
+      "urgency": "plan_ahead"
+    },
+    "doc_type": "travel_requirements",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "visa_req_3",
+    "title": "European Business Travel",
+    "content": "Schengen area allows free movement between 26 countries for business. UK requires separate entry. Business travelers can stay up to 90 days in 180-day period. Some countries require business registration for extended stays.",
+    "metadata": {
+      "requirement_type": "visa",
+      "region": "europe",
+      "urgency": "plan_ahead"
+    },
+    "doc_type": "travel_requirements",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "visa_req_4",
+    "title": "Asia Pacific Business Requirements",
+    "content": "Visa requirements vary significantly across Asia Pacific. Japan, Singapore, Hong Kong offer visa-free short stays for many nationalities. China and India typically require business visas with invitation letters. Processing times 5-15 business days.",
+    "metadata": {
+      "requirement_type": "visa",
+      "region": "asia_pacific",
+      "urgency": "plan_ahead"
+    },
+    "doc_type": "travel_requirements",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "health_req_1",
+    "title": "COVID-19 Travel Considerations",
+    "content": "Check current COVID-19 requirements for destinations including testing, vaccination proof, and quarantine rules. Requirements change frequently. Verify with official government sources before travel. Consider travel insurance covering COVID-related cancellations.",
+    "metadata": {
+      "requirement_type": "health",
+      "category": "health",
+      "update_frequency": "regular"
+    },
+    "doc_type": "health_requirements",
+    "created_at": "2025-06-18T13:02:33.111585"
+  },
+  {
+    "id": "health_req_2",
+    "title": "Business Travel Health Precautions",
+    "content": "Carry first aid kit with basic medications. Know location of nearest hospitals in destination cities. Consider vaccination requirements for international destinations. Bring extra prescription medications.",
+    "metadata": {
+      "requirement_type": "health",
+      "category": "health",
+      "update_frequency": "regular"
+    },
+    "doc_type": "health_requirements",
+    "created_at": "2025-06-18T13:02:33.111585"
+  }
+]

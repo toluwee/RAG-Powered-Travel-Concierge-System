@@ -1,0 +1,1299 @@
+{
+  "model_responses": {
+    "simple_business_trip_0": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_1": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_2": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_3": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_4": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_5": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_6": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_7": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_8": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "simple_business_trip_9": {
+      "expected_tokens": 100,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_0": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_1": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_2": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_3": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_4": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_5": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_6": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_7": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_8": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "multi_city_complex_9": {
+      "expected_tokens": 200,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_0": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_1": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_2": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_3": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_4": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_5": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_6": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_7": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_8": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "budget_constrained_9": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_0": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_1": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_2": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_3": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_4": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_5": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_6": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_7": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_8": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "luxury_preference_9": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_0": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_1": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_2": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_3": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_4": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_5": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_6": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_7": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_8": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "last_minute_booking_9": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_0": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_1": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_2": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_3": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_4": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_5": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_6": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_7": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_8": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "group_travel_9": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_0": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_1": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_2": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_3": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_4": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_5": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_6": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_7": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_8": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "international_complex_9": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_0": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_1": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_2": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_3": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_4": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_5": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_6": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_7": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_8": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    },
+    "seasonal_constraints_9": {
+      "expected_tokens": 150,
+      "expected_sentiment": "positive",
+      "expected_completeness": 0.9
+    }
+  },
+  "rag_retrievals": {
+    "simple_business_trip_0": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_1": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_2": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_3": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_4": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_5": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_6": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_7": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_8": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "simple_business_trip_9": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_0": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_1": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_2": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_3": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_4": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_5": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_6": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_7": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_8": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "multi_city_complex_9": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_0": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_1": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_2": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_3": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_4": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_5": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_6": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_7": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_8": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "budget_constrained_9": {
+      "expected_documents": [
+        "general_travel_policy",
+        "budget_guidelines"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_0": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_1": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_2": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_3": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_4": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_5": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_6": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_7": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_8": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "luxury_preference_9": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_0": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_1": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_2": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_3": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_4": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_5": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_6": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_7": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_8": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "last_minute_booking_9": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_0": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_1": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_2": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_3": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_4": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_5": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_6": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_7": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_8": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "group_travel_9": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_0": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_1": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_2": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_3": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_4": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_5": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_6": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_7": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_8": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "international_complex_9": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_0": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_1": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_2": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_3": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_4": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_5": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_6": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_7": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_8": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    },
+    "seasonal_constraints_9": {
+      "expected_documents": [
+        "general_travel_policy"
+      ],
+      "expected_relevance": 0.8
+    }
+  },
+  "recommendations": {
+    "simple_business_trip_0": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_1": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_2": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_3": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_4": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_5": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_6": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_7": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_8": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "simple_business_trip_9": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_0": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_1": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_2": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_3": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_4": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_5": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_6": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_7": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_8": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "multi_city_complex_9": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_0": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_1": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_2": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_3": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_4": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_5": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_6": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_7": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_8": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "budget_constrained_9": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_0": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_1": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_2": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_3": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_4": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_5": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_6": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_7": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_8": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "luxury_preference_9": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_0": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_1": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_2": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_3": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_4": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_5": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_6": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_7": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_8": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "last_minute_booking_9": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_0": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_1": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_2": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_3": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_4": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_5": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_6": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_7": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_8": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "group_travel_9": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_0": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_1": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_2": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_3": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_4": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_5": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_6": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_7": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_8": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "international_complex_9": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_0": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_1": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_2": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_3": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_4": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_5": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_6": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_7": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_8": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    },
+    "seasonal_constraints_9": {
+      "expected_personalization": 0.85,
+      "expected_cost_optimization": 0.9,
+      "expected_constraint_satisfaction": 0.95
+    }
+  },
+  "system_performance": {}
+}
